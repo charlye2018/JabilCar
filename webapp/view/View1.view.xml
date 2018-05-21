@@ -1,0 +1,22 @@
+<mvc:View controllerName="com.jbl.Jabilcar.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<IconTabBar items="{data>/}">
+						<items>
+							<IconTabFilter text="{data>make}">
+								<List items="{data>models}" headerText="Models made by {data>make}">
+									<items>
+										<NotificationListItem title="{dtat>name}" showCloseButton="false" description="{data>class}"></NotificationListItem>
+									</items>
+								</List>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

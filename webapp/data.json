@@ -1,0 +1,64 @@
+[{
+		"make": "Audi",
+		"models": [{
+			"name": "A3",
+			"class": "Compact"
+		}, {
+			"name": "A4",
+			"class": "Sedan"
+		}, {
+			"name": "A5",
+			"class": "Coupe"
+		}, {
+			"name": "A6",
+			"class": "Sedan"
+		}]
+	}, {
+		"make": "BMW",
+		"models": [{
+			"name": "1 series",
+			"class": "Compact"
+		}, {
+			"name": "3 series",
+			"class": "Sedan"
+		}, {
+			"name": "5 series",
+			"class": "Sedan"
+		}, {
+			"name": "7 series",
+			"class": "Premium"
+		}]
+	},
+
+	{
+		"make": "Mercedes-Benz",
+		"models": [{
+			"name": "A-Class",
+			"class": "Compact"
+		}, {
+			"name": "C-Class",
+			"class": "Sedan"
+		}, {
+			"name": "E-Class",
+			"class": "Sedan"
+		}, {
+			"name": "S-Class",
+			"class": "Premium"
+		}]
+	}, {
+		"make": "Volkswagen",
+		"models": [{
+			"name": "Polo",
+			"class": "Compact"
+		}, {
+			"name": "Golf",
+			"class": "Compact"
+		}, {
+			"name": "Passat",
+			"class": "Sedan"
+		}, {
+			"name": "Arteon",
+			"class": "Coupe"
+		}]
+	}
+]
